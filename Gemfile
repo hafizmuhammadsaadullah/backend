@@ -6,7 +6,7 @@ gem "rails", "~> 8.1.3", ">= 8.1.3.1"
 gem "mysql2", "~> 0.5"
 # Pin json to 2.x: json 3.x changed JSON.parse's signature to keyword-only
 # options, which breaks ActiveSupport::JSON.decode in this Rails version.
-gem "json", "~> 2.7"
+gem "json", "~> 3.0"
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
